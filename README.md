@@ -1,6 +1,6 @@
-# Arthur Martins — Portfolio
+# Arthur Martins Maciel — Portfolio
 
-Personal portfolio for Arthur Martins, Software Engineer focused on backend engineering, system design, cloud and business-aware software.
+Personal portfolio for Arthur Martins Maciel, Software Engineer focused on backend engineering, system design, cloud and business-aware software.
 
 ## Stack
 
