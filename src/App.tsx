@@ -32,7 +32,7 @@ export default function App() {
   useEffect(() => {
     if (!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
     const elements = document.querySelectorAll<HTMLElement>(
-      '.proof-inner > *, .work-section > .lap-marker, .section-intro > *, .project-controls, .project-grid, .about-section > .lap-marker, .about-heading, .about-copy > *, .experience-section > .lap-marker, .job, .contact > .lap-marker, .contact-inner > *, .footer > *'
+      '.proof-inner > *, .work-section > .lap-marker, .section-intro > *, .project-controls, .project-grid, .about-section > .lap-marker, .about-heading, .about-copy > *, .experience-section > .lap-marker, .job, .contact > .lap-marker, .contact-inner > *'
     )
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
