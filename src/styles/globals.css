@@ -56,14 +56,14 @@ body{background:radial-gradient(ellipse at 85% 7%,#dce8cf 0,transparent 32%),rad
   right: 0;
   bottom: 0;
   left: 0;
-  height: 44px;
+  height: 100px;
   background-color: #e9e5df;
   background-image: conic-gradient(#171617 25%, transparent 0 50%, #171617 0 75%, transparent 0);
   background-size: 44px 44px;
 }
 @media (max-width: 650px) {
   .contact { padding-bottom: 98px; }
-  .contact::after { height: 32px; background-size: 32px 32px; }
+  .contact::after { height: 72px; background-size: 32px 32px; }
 }
 @media (prefers-reduced-motion: no-preference) {
   .reveal-item { transition: opacity .75s ease, transform .85s cubic-bezier(.22,1,.36,1); }
